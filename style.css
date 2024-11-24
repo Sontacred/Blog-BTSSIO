@@ -98,4 +98,7 @@ footer{
         "content3"
         "footer";
     }
+    main{
+        padding: 20px;
+    }
 }
