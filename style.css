@@ -30,7 +30,6 @@ nav{
     align-items: center;
     justify-content: center;
     border-radius: var(--main-radius);
-    padding: 10px 20px 10px 20px;
 }
 
 .sidebar{
@@ -52,6 +51,7 @@ main h1{
 }
 main p{
     font-weight: 600;
+    padding: 0px 20px 0px 20px;
 }
 
 
