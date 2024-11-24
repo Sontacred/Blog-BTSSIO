@@ -1,8 +1,5 @@
 *{
-    padding: 0;
-    margin: 0;
     --main-radius: 8px;
-    --main-padding: 20px;
     --main-background: #FF5757;
 }
 
@@ -32,7 +29,7 @@ nav{
     align-items: center;
     justify-content: center;
     border-radius: var(--main-radius);
-    padding: var(--main-padding);
+    padding: 20px;
 }
 
 .sidebar{
@@ -46,7 +43,7 @@ main{
     background: #757575;
     grid-area: main;
     border-radius: var(--main-radius);
-    padding: var(--main-padding);
+    padding: 20px;
 }
 main h1{
     font-size: 6em;
@@ -61,28 +58,31 @@ main p{
     background: #a7a7a7;
     grid-area: content1;
     border-radius: var(--main-radius);
-    padding-top: var(--main-padding);
+    padding: 20px;
 }
 
 .content2{
     background: #a7a7a7;
     grid-area: content2;
     border-radius: var(--main-radius);
-    padding-top: var(--main-padding);
+    padding: 20px;
 }
 
 .content3{
     background: #a7a7a7;
     grid-area: content3;
     border-radius: var(--main-radius);
-    padding-top: var(--main-padding);
+    padding: 20px;
 }
 
 footer{
+    display: flex;
     background: #101010;
     grid-area: footer;
+    align-items: center;
+    justify-content: center;
     border-radius: var(--main-radius);
-    padding-top: var(--main-padding);
+    padding: 20px;
 }
 
 @media only screen and (max-width: 550px){
@@ -97,8 +97,5 @@ footer{
         "content2"
         "content3"
         "footer";
-    }
-    main{
-        padding: 20px;
     }
 }
