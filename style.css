@@ -30,7 +30,7 @@ nav{
     align-items: center;
     justify-content: center;
     border-radius: var(--main-radius);
-    padding: 20px;
+    padding: 10px 20px 10px 20px;
 }
 
 .sidebar{
@@ -44,7 +44,7 @@ main{
     background: #757575;
     grid-area: main;
     border-radius: var(--main-radius);
-    padding: 20px;
+    padding: 10px 20px 10px 20px;
 }
 main h1{
     font-size: 6em;
@@ -59,21 +59,21 @@ main p{
     background: #a7a7a7;
     grid-area: content1;
     border-radius: var(--main-radius);
-    padding: 20px;
+    padding: 10px 20px 10px 20px;
 }
 
 .content2{
     background: #a7a7a7;
     grid-area: content2;
     border-radius: var(--main-radius);
-    padding: 20px;
+    padding: 10px 20px 10px 20px;
 }
 
 .content3{
     background: #a7a7a7;
     grid-area: content3;
     border-radius: var(--main-radius);
-    padding: 20px;
+    padding: 10px 20px 10px 20px;
 }
 
 footer{
@@ -83,7 +83,7 @@ footer{
     align-items: center;
     justify-content: center;
     border-radius: var(--main-radius);
-    padding: 20px;
+    padding: 10px 20px 10px 20px;
 }
 
 @media only screen and (max-width: 550px){
