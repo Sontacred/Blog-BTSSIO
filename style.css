@@ -1,6 +1,8 @@
 *{
+    padding: 0;
+    margin: 0;
     --main-radius: 8px;
-    --main-padding: 5px;
+    --main-padding: 20px;
     --main-background: #FF5757;
 }
 
@@ -24,27 +26,36 @@
 }
 
 nav{
+    display: flex;
     background: #101010;
     grid-area: nav;
+    align-items: center;
+    justify-content: center;
     border-radius: var(--main-radius);
-    padding-top: var(--main-padding);
+    padding: var(--main-padding);
 }
 
 .sidebar{
     background: #313131;
     grid-area: sidebar;
     border-radius: var(--main-radius);
-    padding-top: var(--main-padding);
+    padding: var(--main-padding);
 }
 
 main{
     background: #757575;
     grid-area: main;
-    align-items: center;
-    justify-content: center;
     border-radius: var(--main-radius);
-    padding-top: var(--main-padding);
+    padding: var(--main-padding);
 }
+main h1{
+    font-size: 6em;
+    font-weight: 900;
+}
+main p{
+    font-weight: 600;
+}
+
 
 .content1{
     background: #a7a7a7;
@@ -72,10 +83,6 @@ footer{
     grid-area: footer;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
-}
-
-h1{
-    font-size: 6em;
 }
 
 @media only screen and (max-width: 550px){
