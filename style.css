@@ -30,13 +30,16 @@ nav{
     align-items: center;
     justify-content: center;
     border-radius: var(--main-radius);
+    padding: 10px;
 }
 
 .sidebar{
+    display: flex;
     background: #313131;
     grid-area: sidebar;
+    justify-content: center;
     border-radius: var(--main-radius);
-    padding: var(--main-padding);
+    padding: 10px;
 }
 
 main{
