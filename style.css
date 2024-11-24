@@ -40,6 +40,8 @@ nav{
 main{
     background: #757575;
     grid-area: main;
+    align-items: center;
+    justify-content: center;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
 }
@@ -70,6 +72,10 @@ footer{
     grid-area: footer;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
+}
+
+h1{
+    font-size: 6em;
 }
 
 @media only screen and (max-width: 550px){
