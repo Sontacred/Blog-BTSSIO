@@ -51,36 +51,30 @@ main{
     align-items: center;
     background: #101010;
     color: #101010;
-    min-height: 70vh;
     height: fit-content;
-    padding: 10px 20px 10px 20px;
+    padding: 40px;
     border-top: 2px solid #FFFFFF;
 }
 .box1{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    background: none;
+    background: #424242;
     height: 100%;
     width: 95%;
     border-radius: 10px;
     margin: 10px 0px 10px 0px;
-    border: 2px solid #FFFFFF;
 }
 .subbox1{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     background: none;
     height: 100%;
     width: 95%;
     padding: 20px;
-}
-
-.imgBox{
-    background: none;
 }
 
 .trackbarA{
@@ -88,20 +82,41 @@ main{
     align-items: center;
     justify-content: left;
     background: #000000;
-    border: 3px solid #000000;
-    width: 300px;
+    border: 5px solid #000000;
+    width: 90%;
     height: 10px;
     margin: 10px 10px 10px 10px;
     border-radius: 100px;
+    font-weight: 900;
 }
-.trackbarB{
+.trackbarB1{
     display: flex;
     align-items: center;
     justify-content: left;
     background: #ffffff;
-    width: 80%;
+    width: 90%;
     height: 100%;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 5px 10px 0px;
+    border-radius: 100px;
+}
+.trackbarB2{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background: #ffffff;
+    width: 50%;
+    height: 100%;
+    margin: 10px 5px 10px 0px;
+    border-radius: 100px;
+}
+.trackbarB3{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background: #ffffff;
+    width: 70%;
+    height: 100%;
+    margin: 10px 5px 10px 0px;
     border-radius: 100px;
 }
 
@@ -111,9 +126,8 @@ main{
     align-items: center;
     background: #101010;
     color: #101010;
-    min-height: 70vh;
     height: fit-content;
-    padding: 10px 20px 10px 20px;
+    padding: 40px;
     border-top: 2px solid #FFFFFF;
 }
 .box2{
@@ -141,9 +155,8 @@ main{
     align-items: center;
     background: #101010;
     color: #101010;
-    min-height: 70vh;
     height: fit-content;
-    padding: 10px 20px 10px 20px;
+    padding: 40px;
     border-top: 2px solid #FFFFFF;
 
 }
@@ -213,7 +226,19 @@ button{
     h3{
         font-size: 1em;
     }
-    .box1 .box2{
+    .box2{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    h3{
+        font-size: 1em;
+    }
+    .box1{
+        flex-direction: column;
+    }
+    .box2{
         flex-direction: column;
     }
 }
