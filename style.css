@@ -1,6 +1,6 @@
 *{
-    --main-radius: 8px;
-    --main-background: #FF5757;
+    margin: 0;
+    padding: 0;
 }
 
 .container{
@@ -29,7 +29,6 @@ nav{
     grid-area: nav;
     align-items: center;
     justify-content: center;
-    border-radius: var(--main-radius);
     padding: 10px;
 }
 
@@ -38,14 +37,12 @@ nav{
     background: #313131;
     grid-area: sidebar;
     justify-content: center;
-    border-radius: var(--main-radius);
     padding: 10px;
 }
 
 main{
     background: #757575;
     grid-area: main;
-    border-radius: var(--main-radius);
     padding: 10px 20px 10px 20px;
 }
 main h1{
@@ -62,7 +59,6 @@ main p{
 .content1{
     background: #a7a7a7;
     grid-area: content1;
-    border-radius: var(--main-radius);
     padding: 10px 20px 10px 20px;
 }
 
@@ -76,7 +72,6 @@ main p{
 .content3{
     background: #a7a7a7;
     grid-area: content3;
-    border-radius: var(--main-radius);
     padding: 10px 20px 10px 20px;
 }
 
@@ -86,7 +81,6 @@ footer{
     grid-area: footer;
     align-items: center;
     justify-content: center;
-    border-radius: var(--main-radius);
     padding: 10px 20px 10px 20px;
 }
 
