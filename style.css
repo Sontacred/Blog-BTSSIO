@@ -191,4 +191,7 @@ h3{
     .content1 .content2 .content3{
         height: fit-content;
     }
+    img{
+        height: 40px;
+    }
 }
