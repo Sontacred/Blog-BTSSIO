@@ -123,4 +123,7 @@ footer{
     .article .right p.description{
         font-size: 15px;
     }
+    .onglets a{
+        font-size: 18px;
+    }
   }
