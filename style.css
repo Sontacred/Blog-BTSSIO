@@ -23,7 +23,7 @@ nav{
     border-bottom: 1px solid #2d2d2d;
 }
 nav h1{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 900;
 }
 
@@ -126,6 +126,10 @@ footer{
     }
     .article .right p.description{
         font-size: 15px;
+    }
+    nav h1{
+        font-size: 20px;
+        font-weight: 900;
     }
     .onglets a{
         font-size: 16px;
