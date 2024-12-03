@@ -39,6 +39,10 @@ nav h1{
     padding: 5px;
     font-size: 20px;
 }
+.onglets a:hover{
+    color: #000000; /* ! */
+    text-decoration: underline;
+}
 
 /* ----- SECTION ----- */
 
@@ -101,7 +105,7 @@ footer{
 }
 .social-media p{
     margin-right: 15px;
-  }
+}
 
 /* ----- MEDIA ----- */
 
